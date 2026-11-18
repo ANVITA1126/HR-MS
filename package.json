@@ -1,0 +1,26 @@
+{
+  "name": "hrms-mern-workspace",
+  "version": "1.0.0",
+  "description": "Full-Stack MERN HR Management System (HRMS)",
+  "scripts": {
+    "server": "cd server && npm run dev",
+    "server:start": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "seed": "cd server && npm run seed",
+    "install:server": "cd server && npm install",
+    "install:client": "cd client && npm install",
+    "install:all": "npm run install:server && npm run install:client"
+  },
+  "keywords": [
+    "mern",
+    "hrms",
+    "human-resource-management",
+    "react",
+    "express",
+    "nodejs",
+    "mongodb",
+    "tailwind"
+  ],
+  "author": "Anvita",
+  "license": "MIT"
+}
